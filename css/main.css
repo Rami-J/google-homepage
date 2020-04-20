@@ -1,0 +1,97 @@
+body {
+	text-align: center;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	height: 98%;
+	width: 99%;
+	position: absolute;
+}
+
+#main {
+	max-width: 500px;
+	margin: 200px auto 0 auto;	
+	height: 200px;
+}
+
+.link {
+	padding: 5px;
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+#sign-in {
+	background-color: #4387fd;
+	color: #fff;;
+	margin-left: 5px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: solid 1px #4683ea;
+}
+
+#nav-bar {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#search {
+	flex-direction: row;
+	width: 500px;
+	margin-top: 10px;
+	height: 200px;
+}
+
+#search-img {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+#search-input {
+	width: 500px;
+	padding: 10px;
+	padding-left: 40px;
+	border-style: none;
+	margin-right: 20px;
+	margin-top: 0;
+	margin-bottom: auto;
+	border: 1px solid #dfe1e5;
+	border-radius: 30px;
+}
+
+#button-div {
+	margin: 0 auto;
+}
+
+.search-btn {
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	color: #5F6368;
+	cursor: pointer;
+	padding: 5px 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.search-btn:hover {
+	border-color: #C8C8C8;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	width: 100%;
+	border-top: 1px solid #dfe1e5;
+}
